@@ -22,7 +22,7 @@ const packages = [
   {
     number: "03",
     title: "Everything + DM/SMS Chatbot",
-    price: "$910 setup + $250/month",
+    price: "$910 setup + $180/month",
     priceNote: "hosting included",
     description:
       "The full package — the AI chatbot also answers your social media DMs, text messages and WhatsApp.",
