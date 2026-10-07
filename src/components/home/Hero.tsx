@@ -63,18 +63,26 @@ export function Hero() {
             Thinsk Media is a Dallas–Fort Worth digital marketing agency that specializes in providing AI-powered marketing solution that helps non-tech local businesses grow their visibility through SEO, social media, and email marketing and Agentic workflow development — all powered by AI and built for modern businesses. Let us help you reach more, Sell more and Engage better.
           </motion.p>
 
-          {/* AI chatbot pitch — gold highlight */}
-          <motion.p
+          {/* AI chatbot pitch — standout gold-glass panel */}
+          <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="text-base md:text-lg text-[#C9A227] max-w-xl mb-4 font-bold leading-relaxed"
+            className="max-w-xl mb-8 rounded-2xl border border-[#C9A227]/50 bg-gradient-to-br from-[#C9A227]/20 via-[#C9A227]/5 to-transparent p-5 md:p-6 shadow-[0_0_44px_rgba(201,162,39,0.18)] backdrop-blur-sm"
           >
-            Upgrade your business with an AI chatbot on your website, social media DMs, text SMS, WhatsApp and more.{" "}
-            <a href="/#chatbots" className="underline underline-offset-4">
-              See our packages
-            </a>
-          </motion.p>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-block w-2 h-2 rounded-full bg-[#C9A227] animate-pulse" />
+              <span className="text-[11px] uppercase tracking-[0.25em] text-[#C9A227] font-bold">
+                AI Chatbots for your business
+              </span>
+            </div>
+            <p className="text-base md:text-lg text-white font-medium leading-relaxed">
+              Upgrade your business with an AI chatbot on your website, social media DMs, text SMS, WhatsApp and more.{" "}
+              <a href="/#chatbots" className="text-[#C9A227] font-bold underline underline-offset-4 hover:text-white transition-colors">
+                See our packages
+              </a>
+            </p>
+          </motion.div>
 
           {/* Divider accent */}
           <motion.div
