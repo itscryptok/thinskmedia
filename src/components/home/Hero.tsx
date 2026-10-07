@@ -63,6 +63,19 @@ export function Hero() {
             Thinsk Media is a Dallas–Fort Worth digital marketing agency that specializes in providing AI-powered marketing solution that helps non-tech local businesses grow their visibility through SEO, social media, and email marketing and Agentic workflow development — all powered by AI and built for modern businesses. Let us help you reach more, Sell more and Engage better.
           </motion.p>
 
+          {/* AI chatbot pitch — gold highlight */}
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="text-base md:text-lg text-[#C9A227] max-w-xl mb-4 font-bold leading-relaxed"
+          >
+            Upgrade your business with an AI chatbot on your website, social media DMs, text SMS, WhatsApp and more.{" "}
+            <a href="/#chatbots" className="underline underline-offset-4">
+              See our packages
+            </a>
+          </motion.p>
+
           {/* Divider accent */}
           <motion.div
             initial={{ scaleX: 0 }}

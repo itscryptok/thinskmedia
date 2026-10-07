@@ -2,6 +2,7 @@ import { useSeo } from "@/hooks/use-seo";
 import { SiteNav } from "@/components/shared/SiteNav";
 import { Hero } from "@/components/home/Hero";
 import { ServiceCards } from "@/components/home/ServiceCards";
+import { ChatbotPackages } from "@/components/home/ChatbotPackages";
 import { HomeBlogSection } from "@/components/home/HomeBlogSection";
 import { Footer } from "@/components/home/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero />
         <ServiceCards />
+        <ChatbotPackages />
         <HomeBlogSection />
       </main>
       <Footer />
